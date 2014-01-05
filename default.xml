@@ -17,7 +17,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform_build" groups="pdk" remote="Hydrogen" revision="kitkat" >
+  <project path="build" name="platform_build" groups="pdk" remote="Hydrogen" revision="kk4.4.2" >
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
