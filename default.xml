@@ -437,6 +437,6 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/hydrogen" name="android_vendor_hydrogen" remote="Hydrogen" revision="kk4.4.2" />
-  <project path="kernel/lge/hammerhead" name="android_kernel_lge_hammerhead" remote="Beergang" revision="kitkat"
+  <project path="kernel/lge/hammerhead" name="android_kernel_lge_hammerhead" remote="Beergang" revision="kitkat" />
 
 </manifest>
