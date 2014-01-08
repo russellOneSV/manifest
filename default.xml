@@ -2,10 +2,15 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-cts-4.4_r1"
+           fetch="https://android.googlesource.com" />
+
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
+           sync-c="true"
+           sync-f="true"
            sync-j="4" />
 
   <project path="build" name="platform/build" groups="pdk" >
