@@ -7,6 +7,9 @@
   <remote  name="github"
            fetch="https://github.com" />
 
+  <remote name="Hydrogen"
+        fetch="git://github.com/Project-Hydrogen" />
+     
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
            sync-c="true"
@@ -205,7 +208,7 @@
   <project path="external/qemu" name="platform/external/qemu" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <project path="external/regex-re2" name="platform/external/regex-re2" />
-  <project path="external/replicaisland" name="platform/external/I'll" />
+  <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
