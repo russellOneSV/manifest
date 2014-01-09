@@ -9,6 +9,9 @@
 
   <remote name="Hydrogen"
         fetch="git://github.com/Project-Hydrogen" />
+
+<remote name="BeerGang"
+        fetch="git://github.com/BeerGang/" />
      
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
