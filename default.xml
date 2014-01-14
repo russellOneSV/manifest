@@ -11,7 +11,7 @@
         fetch="git://github.com/Project-Hydrogen" />
   
   <remote name="HOS"
-        fetch="git://github.com/Team-OneSV"
+        fetch="git://github.com/Team-OneSV" />
         
   <remote name="CyanogenMod"
         fetch="git://github.com/CyanogenMod/" />
